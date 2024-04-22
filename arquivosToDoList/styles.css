@@ -1,0 +1,99 @@
+:root {
+    --mintGreen: #cbf3f0;
+    --white: #fff;
+    --hunyadiYellow: #ffbf69;
+    --orangePeel: #ff9f1c;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mintGreen);
+}
+#containerApp {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    gap: 10px;
+}
+#containerCriacaoTarefas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#criacaoTarefas {
+    width: 28vw;
+    background-color: var(--hunyadiYellow);
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;  
+}
+#criacaoTarefas input {
+    background-color: transparent;
+    margin-left: 20px;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+#criacaoTarefas #btnAddTask {
+    width: 10vw;
+    border-radius: 20px;
+    background-color: var(--orangePeel);
+    cursor: pointer;
+}
+#containerTarefas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.tarefa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vw;
+    padding: 5px;
+    font-size: 20px;
+    position: relative;
+    margin-left: 30px;
+    cursor: pointer;
+    
+}
+
+.tarefa::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    top: 5px;
+    left: -30px;
+    border-radius: 50%;
+    border: #000 solid 2px;
+}
+.tarefa.checked {
+    opacity: 50%;
+    text-decoration: line-through;
+}
+.tarefa.checked::before {
+    background-color: #ff9f1c;
+}
+.btnRemove {
+    cursor: pointer;
+}
