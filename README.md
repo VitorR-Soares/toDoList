@@ -7,7 +7,7 @@ b) Remoção de tarefas;
 
 c) Mecanismo de "Check" em tarefas já realizadas;
 
-d) Mecanismo de Alerta para garanti que seham adicionadas tarefas apenas com o input preenchido
+d) Mecanismo de Alerta para garantir que sejam adicionadas tarefas apenas com o input preenchido;
 
 3) Interface do projeto
 ![ToDoList 1](https://github.com/VitorR-Soares/toDoList/assets/160509234/ef6dca23-760f-4dec-9039-3187055f2b96)
