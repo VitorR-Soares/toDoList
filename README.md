@@ -9,7 +9,7 @@ c) Mecanismo de "Check" em tarefas já realizadas;
 
 d) Mecanismo de Alerta para garantir que sejam adicionadas tarefas apenas com o input preenchido;
 
-3) Interface do projeto
+2) Interface do projeto
 
 ![ToDoList 1](https://github.com/VitorR-Soares/toDoList/assets/160509234/ef6dca23-760f-4dec-9039-3187055f2b96)
 ![ToDoList 2](https://github.com/VitorR-Soares/toDoList/assets/160509234/76e2b2d8-86bd-48b6-bf71-2856b7424f2e)
