@@ -1,7 +1,7 @@
 1) Descrição do Projeto
 Este projeto consiste em uma simples To Do List, com as seguintes funcionalidades:
-a) Criação de tarefas;
-b) Remoção de tarefas;
+a) Criação de tarefas; <\n>
+b) Remoção de tarefas; <\n>
 c) Mecanismo de "Check" em tarefas já realizadas;
 d) Mecanismo de Alerta para garanti que seham adicionadas tarefas apenas com o input preenchido
 
